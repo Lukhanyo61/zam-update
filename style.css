@@ -1,0 +1,100 @@
+
+.container{
+  margin-top:30px;
+}
+
+#puml{
+  
+    filter: grayscale(100%);
+  
+}
+
+.counter-box {
+  display: block;
+  background: #0F0844;
+  padding: 40px 20px 37px;
+  text-align: center
+}
+
+@media screen and (max-width:768px) {
+.countwer-box{
+  padding-top: 20%;
+}
+.card-bodu{
+  padding-bottom: 5%;
+}
+.courosell{
+  padding-bottom: 10%;
+}
+body{
+  background-color: rgb(216, 237, 237);
+}
+.counter { 
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color:white;
+  line-height: 28px
+}
+
+.counter-box.colored {
+    background: rgb(227, 23, 84);
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+  color: #fff
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.circle {
+  height: 500px;
+  width: 500px;
+  z-index:1;
+  position: relative;
+  margin-top: 60px;
+}
+
+dl {
+  z-index:2;  
+  position: relative;
+  top: -365px;
+  left: 130px;
+  list-style-type: none;
+
+}
+dd {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color:#FFFF66;
+    border-radius:50%;
+    padding: 5px;
+	overflow:hidden;
+	display: table;
+	
+	span {
+	width: 100px; 
+    text-align:center;
+    display:block;
+		margin:0 auto;
+		margin-top: 10px;
+		line-height: 12px;
+		font-size: 12px;
+		vertical-align:middle;
+		display: table-cell;
+	}
+	
+}
